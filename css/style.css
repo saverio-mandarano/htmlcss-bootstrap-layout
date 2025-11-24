@@ -8,7 +8,6 @@
 /* Generals */
 h6 {
   text-align: center;
-  padding-top: 10px;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -19,7 +18,7 @@ h1 {
 }
 
 /* DEBUG */
-[class^="container"] {
+/* [class^="container"] {
   border: 1px dashed black;
   background-color: lightblue;
   min-height: 80vh;
@@ -33,4 +32,15 @@ h1 {
   height: 100px;
   background-color: #f1d2e7;
   border: 1px solid #d0a8eb;
+} */
+
+/* Sezione doppia colonna */
+.doppio .left {
+  background-color: rgb(248, 249, 250);
+}
+
+.doppio .right {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(107, 117, 125);
 }
