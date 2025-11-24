@@ -28,20 +28,46 @@
       <h6>Layout a griglia con diversi breakpoint (sm, md, lg).</h6>
     </header>
     <main>
-      <section class="container doppio">
+      <section class="container double-column">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 left">
+          <div class="col-12 col-md-6 col-lg-4 column-1">
             <h2>Column 1</h2>
             <p>
               Larghezza intera su dispositivi piccoli, metà larghezza su
               dispositivi medi e un terzo su dispositivi grandi.
             </p>
           </div>
-          <div class="col-12 col-md-6 col-lg-8 right">
+          <div class="col-12 col-md-6 col-lg-8 column-2">
             <h2>Column 2</h2>
             <p>
               Larghezza intera su dispositivi piccoli, metà larghezza su
               dispositivi medi e due terzi su dispositivi grandi.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container triple-column">
+        <div class="row">
+          <div class="col-6 col-md-4 column-1">
+            <h2>Column 1</h2>
+            <p>
+              Metà larghezza su dispositivi piccoli e un terzo su dispositivi
+              medi e più grandi.
+            </p>
+          </div>
+          <div class="col-6 col-md-4 column-2">
+            <h2>Column 2</h2>
+            <p>
+              Metà larghezza su dispositivi piccoli e un terzo su dispositivi
+              medi e più grandi.
+            </p>
+          </div>
+          <div class="col-12 col-md-4 column-3">
+            <h2>Column 3</h2>
+            <p>
+              Larghezza intera su dispositivi piccoli (col-12) e un terzo su
+              dispositivi medi e più grandi.
             </p>
           </div>
         </div>
