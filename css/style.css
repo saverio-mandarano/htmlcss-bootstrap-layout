@@ -1,0 +1,19 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+h6 {
+  text-align: center;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 600;
+}
